@@ -1,1 +1,22 @@
-# project-ml-intern-2
+第2周（目标：强化 Pandas、做完整 EDA、学习基础统计与分组特征）
+
+- 周一（2.5h）
+  - 学习：统计基础（均值、中位数、方差、协方差、相关系数、置信区间的概念）。资源：Khan Academy 概念，或《统计学入门》速读。
+  - 练习：在 Titanic 数据上计算不同列之间的相关性矩阵，并可视化热力图。
+- 周二（2.5h）
+  - 学习：更复杂的 pandas 操作（透视表 pivot_table、时间序列基础 if 有、apply/lambda 优化注意点）。
+  - 练习：做按舱位和性别分组的生存率透视表，并观察差异。
+- 周三（2.5h）
+  - 学习：特征工程入门（类别编码基本方法：one-hot、label encoding、target encoding 概念）。
+  - 练习：在 Titanic 上尝试两种编码方案并比较简单模型表现（占位，不做深入调参）。
+- 周四（2.5h）
+  - 学习：机器学习入门概念（监督/无监督、训练/验证/测试、过拟合/欠拟合）。资源：吴恩达机器学习课程入门章节或 Géron 前几章。
+  - 实践：用 scikit-learn 做一个简单的 LogisticRegression（train/test split），计算 accuracy、precision、recall。
+- 周五（2.5h）
+  - 学习：交叉验证基本概念（K-fold）与 sklearn 的 cross_val_score 用法。
+  - 练习：用 K-fold 对 Titanic 做 5-fold CV，把结果记录在 notebook。
+- 周六（2.5h）
+  - 集成任务：将本周结果整理到一个名为 week2_eda_feature notebook，写清楚每个实验结论。
+  - 将 notebook 与数据预处理脚本放入 GitHub，更新 README。
+- 周日（1h）复盘
+  - 写周报，记录 3 个要复习的点（例如 groupby 性能、交叉验证思路、编码方法）。
